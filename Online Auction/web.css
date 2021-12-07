@@ -1,0 +1,77 @@
+#header{
+background-color:rgb(90,90,90);
+color:white;
+font-family:'Times New Roman';
+padding:0.5px;
+text-align:center;
+
+}
+
+#body{
+background-color:white;
+color:black;
+font-family:'Times New Roman';
+padding:25px;
+align="center";
+text-align:center;
+
+background-color:#cccccc;
+}
+
+
+#box{
+width="20%";
+
+}
+
+
+<style> 
+input[type=text] {
+    width: 50%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url("search-icon.png");
+    background-position: 0px 0px; 
+    background-repeat: no-repeat;  
+padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+.popup{
+float:right;
+margin-right:50px;
+margin-top:50px;}
+
+strong{
+color:#ccccff
+}
+
+#image{
+float:right;
+padding:0px;
+}
+#foot{
+background-color:rgb(90,90,90);
+color:white;
+font-family:'Times New Roman';
+margin:20;
+padding:5px;
+text-align:center;
+}
+.footer
+{
+	border-style:solid;
+	border-width:0.5px;
+	clear:both;
+	background: #c0c0c0;
+	text-align:center;
+	font:Verdana;
+}

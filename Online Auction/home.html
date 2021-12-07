@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="main.css" type="text/css" />
+<script type="text/javascript" src="loginvalid.js">
+</script>
+<style>
+form {
+    border: 3px solid #f1f1f1;
+}
+
+
+.popup{
+float:right;
+margin-right:50px;
+margin-top:50px;}
+
+strong{
+color:#ccccff
+}
+
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+}
+
+.cancelbtn {
+    width: 20%;
+    padding: 12px 28px;
+     background-color: white;
+    color: black;
+    border: 2px solid #555555;
+border-radius: 12px;
+}
+.cancelbtn:hover{ background-color: #555555;
+    color: white;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+width: 40%;
+
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+}
+.head{
+background-color:#A0A0A0;
+ border-radius: 50%;
+padding:16px;
+width: 40%;
+}
+.cancelbtni {
+    width: 30%;
+    padding: 12px 28px;
+     background-color: white;
+    color: black;
+    border: 2px solid #555555;
+border-radius: 12px;
+}
+.cancelbtni:hover{ background-color: #555555;
+    color: white;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+width: 40%;
+}
+.mar{
+ margin-right:50px;
+margin-left:50px;
+}
+.widhei{
+height: 200px;
+    width: 50%;}
+.but {
+    display: inline-block;
+    margin: 10px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow:    0 8px 0 #c5376d, 0 15px 20px rgba(0, 0, 0, .35);
+    -moz-box-shadow: 0 8px 0 #c5376d, 0 15px 20px rgba(0, 0, 0, .35);
+    box-shadow: 0 8px 0 #c5376d, 0 15px 20px rgba(0, 0, 0, .35);
+    -webkit-transition: -webkit-box-shadow .1s ease-in-out;
+    -moz-transition: -moz-box-shadow .1s ease-in-out;
+    -o-transition: -o-box-shadow .1s ease-in-out;
+    transition: box-shadow .1s ease-in-out;
+    font-size: 50px;
+    color: #fff;
+}
+
+.but span {
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: black;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(hsla(338, 90%, 80%, .8)), to(hsla(338, 90%, 70%, .2)));
+    background-image: -webkit-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
+    background-image: -moz-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
+    background-image: -o-linear-gradient(hsla(338, 90%, 80%, .8), hsla(338, 90%, 70%, .2));
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: inset 0 -1px 1px rgba(5, 255, 255, 15);
+    -moz-box-shadow: inset 0 -1px 1px rgba(5, 255, 255, 15);
+    box-shadow: inset 0 -1px 1px rgba(5, 255, 255, 15);
+    font-family: 'Pacifico', Arial, sans-serif;
+    line-height: 1;
+    text-shadow: 0 -1px 1px rgba(175, 49, 95, .7);
+    -webkit-transition: background-color .2s ease-in-out, -webkit-transform .1s ease-in-out;
+    -moz-transition: background-color .2s ease-in-out, -moz-transform .1s ease-in-out;
+    -o-transition: background-color .2s ease-in-out, -o-transform .1s ease-in-out;
+    transition: background-color .2s ease-in-out, transform .1s ease-in-out;
+}
+
+.but:hover span {
+    background-color: gray;
+    text-shadow: 0 -1px 1px rgba(175, 49, 95, .9), 0 0 5px rgba(255, 255, 255, .8);
+}
+
+.but:active, .but:focus {
+    -webkit-box-shadow:    0 8px 0 grey, 0 12px 10px rgba(0, 0, 0, 3);
+    -moz-box-shadow: 0 8px 0 grey, 0 12px 10px rgba(0, 0, 0, 3);
+    box-shadow:    0 8px 0 grey, 0 12px 10px rgba(0, 0, 0, 3);
+}
+
+.but:active span {
+    -webkit-transform: translate(0, 4px);
+    -moz-transform: translate(0, 4px);
+    -o-transform: translate(0, 4px);
+    transform: translate(0, 4px);
+}
+
+</style>
+<link rel="stylesheet" type="text/css" href="web.css"/>
+<link rel="stylesheet" href="main.css" type="text/css" />
+<script type="text/javascript" src="validation.js">
+</script>
+</head>
+<body>
+<header id="banner" class="bod" ><center>
+  <div id="head"><h1><a href="home.html">Online Auction<br/><strong>BID HIGH REMAIN HIGH</strong></a></h1>
+</center></div>
+
+
+<nav width="100%"><ul>
+    <li><a href="">Home</a></li>
+    <li><a href="">Meet Winner</a></li>
+    <li><a href="">How it works</a></li>
+    <li><a href="">FAQ's</a></li> 
+    <li><a href="">Contact Us</a></li>
+    <li><a href="">About Us</a></li>	
+  </ul></nav>
+</header><!-- /#banner -->
+<div id="body"><div class="mar">
+
+<body>
+
+
+ <center>
+<div id="widhei"><div class="w3-content w3-section" style="max-width:500px" style="max-height:70%">
+  <img class="mySlides" src="Winners-2016.jpg" style="width:100%" style="height:70%">
+  <img class="mySlides" src="oas.jpg" style="width:100%" style="height:70%">
+  <img class="mySlides" src="signup.jpg" style="width:100%" style="height:70%">
+</div></div>
+</center>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 1000); // Change image every 2 seconds
+}
+</script>
+<br/><br/>
+<a href="signit.html" class="but">
+    <span>SIGN UP</span>
+</a>
+<a href="login.html" class="but">
+    <span>LOGIN</span>
+</a>
+<br/><br/><br/>
+<img src="bid.gif" alt="Bidding" style="float:right" ;>
+<img src="sold.gif" alt="Sold" style="float:left";</div><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+</body>
+
+
+
+</html>
